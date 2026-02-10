@@ -3,7 +3,7 @@ import pandas as pd
 from stock_algos import moving_average_crossover, lstm_price_prediction
 from signals import sma_position_for_backtest, lstm_position_for_backtest
 
-TICKERS = ["NVDA", "AMD", "AAPL"]
+TICKERS = ["NVDA", "MSFT", "AAPL"]
 
 # SMA parameters
 SHORT_W = 20
